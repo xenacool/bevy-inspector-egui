@@ -1,3 +1,22 @@
 [workspace]
 resolver = "2"
 members = ["crates/*"]
+
+[workspace.dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_app = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_asset = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_color = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_core = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_core_pipeline = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_ecs = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_hierarchy = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_log = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_math = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_pbr = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_reflect = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_render = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_state = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_time= { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_utils = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
+bevy_window = { git = "https://github.com/bevyengine/bevy", rev = "5c759a1be800209f537bea31d32b8ba7e966b0c1" }
